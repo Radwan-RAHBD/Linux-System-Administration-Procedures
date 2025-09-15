@@ -65,7 +65,7 @@ This repository contains comprehensive Change Management Procedures for Linux sy
   - [Mail Server - Dovecot](./Procedures/Mail_Server/Mail_Server_Dovecot.md) - Dovecot IMAP/POP3 server setup
   - [Mail Client - Dovecot](./Procedures/Mail_Server/Mail_Client_Dovecot.md) - Dovecot client configuration
   - [Mail Server Integration](./Procedures/Mail_Server/Mail_Server_Integration.md) - Complete mail system integration
-- **[iRedMail Server](./Procedures/iRedMail_Server.md)** 
+- **[iRedMail Server](./iRedMail_Server/Procedures/iRedMail_Server.md)** 
   - Complete iRedMail installation and configuration for enterprise email systems
 
 ---
