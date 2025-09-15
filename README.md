@@ -20,10 +20,6 @@ This repository contains comprehensive Change Management Procedures for Linux sy
 
 ## 🗂️ Procedure Categories
 
-### 📊 Repository & Package Management
-- **[Repository Configuration](./Repository_Configuration.md)** ✅ *Complete*
-  - Configure YUM/DNF repositories, GPG keys, and package sources
-
 ### ⏰ Time Synchronization 
 - **[NTP Configuration](./Procedures/NTP_Configuration/)** ✅ *Complete*
   - [NTP Server Setup](./Procedures/NTP_Configuration/Server.md) - Configure NTP master server
@@ -44,6 +40,10 @@ This repository contains comprehensive Change Management Procedures for Linux sy
 ### 🛡️ Security & Access Management
 - **[SUDO Management](./Procedures/SUDO_Management.md)** 
   - Role-based sudo access configuration and security
+
+### 📊 Repository & Package Management
+- **[Repository Configuration](./Repository_Configuration.md)** ✅ *Complete*
+  - Configure YUM/DNF repositories, GPG keys, and package sources
 
 ### 🌍 Network Services
 - **[DNS Configuration](./Procedures/DNS_Configuration/)** 
@@ -111,8 +111,6 @@ Each procedure follows this standardized format:
 3. **Follow implementation steps** systematically
 4. **Verify configuration** using provided tests
 5. **Keep rollback procedures** ready for emergency recovery
-
-
 
 ---
 
