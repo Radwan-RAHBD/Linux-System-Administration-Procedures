@@ -25,47 +25,47 @@ This repository contains comprehensive Change Management Procedures for Linux sy
   - Configure YUM/DNF repositories, GPG keys, and package sources
 
 ### ⏰ Time Synchronization 
-- **[NTP Configuration](./NTP_Configuration/)** ✅ *Complete*
-  - [NTP Server Setup](./NTP_Configuration/Server.md) - Configure NTP master server
-  - [NTP Client Setup](./NTP_Configuration/Client.md) - Configure NTP client synchronization
+- **[NTP Configuration](./Procedures/NTP_Configuration/)** ✅ *Complete*
+  - [NTP Server Setup](./Procedures/NTP_Configuration/Server.md) - Configure NTP master server
+  - [NTP Client Setup](./Procedures/NTP_Configuration/Client.md) - Configure NTP client synchronization
 
 ### 🌐 Web Server Configuration
-- **[HTTP Configuration](./HTTP_Configuration.md)** 
+- **[HTTP Configuration](./Procedures/HTTP_Configuration.md)** 
   - Basic Apache HTTP server setup and configuration
-- **[HTTPS SSL Certificates](./HTTPS_SSL_Certificates.md)** 
+- **[HTTPS SSL Certificates](./Procedures/HTTPS_SSL_Certificates.md)** 
   - SSL/TLS certificate installation and configuration
-- **[Web Server - Apache Setup](./Web_Server_Apache_Setup.md)** 
+- **[Web Server - Apache Setup](./Procedures/Web_Server_Apache_Setup.md)** 
   - Advanced Apache configuration with virtual hosts and security
-- **[Web Server - Nginx Setup](./Web_Server_Nginx_Setup.md)** 
+- **[Web Server - Nginx Setup](./Procedures/Web_Server_Nginx_Setup.md)** 
   - Complete Nginx setup with PHP-FPM integration
-- **[Application Server Setup](./Application_Server_Setup.md)** 
+- **[Application Server Setup](./Procedures/Application_Server_Setup.md)** 
   - Multi-language application server (PHP, Python, Node.js, Java)
 
 ### 🛡️ Security & Access Management
-- **[SUDO Management](./SUDO_Management.md)** 
+- **[SUDO Management](./Procedures/SUDO_Management.md)** 
   - Role-based sudo access configuration and security
 
 ### 🌍 Network Services
-- **[DNS Configuration](./DNS_Configuration/)** 
-  - [DNS Server](./DNS_Configuration/Server.md) - Authoritative DNS server setup
-  - [DNS Client](./DNS_Configuration/Client.md) - DNS resolver configuration
+- **[DNS Configuration](./Procedures/DNS_Configuration/)** 
+  - [DNS Server](./Procedures/DNS_Configuration/Server.md) - Authoritative DNS server setup
+  - [DNS Client](./Procedures/DNS_Configuration/Client.md) - DNS resolver configuration
 
 ### 🗄️ Database Servers
-- **[Database Server - MySQL](./Database_Server_MySQL/)** 
-  - [MySQL Server](./Database_Server_MySQL/Server.md) - MySQL server installation and configuration
-  - [MySQL Client](./Database_Server_MySQL/Client.md) - MySQL client tools and connection setup
-- **[Database Server - Oracle](./Database_Server_Oracle/)** 
-  - [Oracle Server](./Database_Server_Oracle/Server.md) - Oracle Database server setup
-  - [Oracle Client](./Database_Server_Oracle/Client.md) - Oracle client tools and connectivity
+- **[Database Server - MySQL](./Procedures/Database_Server_MySQL/)** 
+  - [MySQL Server](./Procedures/Database_Server_MySQL/Server.md) - MySQL server installation and configuration
+  - [MySQL Client](./Procedures/Database_Server_MySQL/Client.md) - MySQL client tools and connection setup
+- **[Database Server - Oracle](./Procedures/Database_Server_Oracle/)** 
+  - [Oracle Server](./Procedures/Database_Server_Oracle/Server.md) - Oracle Database server setup
+  - [Oracle Client](./Procedures/Database_Server_Oracle/Client.md) - Oracle client tools and connectivity
 
 ### 📧 Mail Server Configuration
-- **[Mail Server](./Mail_Server/)** 
-  - [SMTP Server - Postfix](./Mail_Server/SMTP_Server_Postfix.md) - Complete Postfix SMTP server setup
-  - [SMTP Client - Postfix](./Mail_Server/SMTP_Client_Postfix.md) - Postfix client configuration
-  - [Mail Server - Dovecot](./Mail_Server/Mail_Server_Dovecot.md) - Dovecot IMAP/POP3 server setup
-  - [Mail Client - Dovecot](./Mail_Server/Mail_Client_Dovecot.md) - Dovecot client configuration
-  - [Mail Server Integration](./Mail_Server/Mail_Server_Integration.md) - Complete mail system integration
-- **[iRedMail Server](./iRedMail_Server.md)** 
+- **[Mail Server](./Procedures/Mail_Server/)** 
+  - [SMTP Server - Postfix](./Procedures/Mail_Server/SMTP_Server_Postfix.md) - Complete Postfix SMTP server setup
+  - [SMTP Client - Postfix](./Procedures/Mail_Server/SMTP_Client_Postfix.md) - Postfix client configuration
+  - [Mail Server - Dovecot](./Procedures/Mail_Server/Mail_Server_Dovecot.md) - Dovecot IMAP/POP3 server setup
+  - [Mail Client - Dovecot](./Procedures/Mail_Server/Mail_Client_Dovecot.md) - Dovecot client configuration
+  - [Mail Server Integration](./Procedures/Mail_Server/Mail_Server_Integration.md) - Complete mail system integration
+- **[iRedMail Server](./Procedures/iRedMail_Server.md)** 
   - Complete iRedMail installation and configuration for enterprise email systems
 
 ---
